@@ -35,7 +35,7 @@ These are native component captures with sample data. The Live Activity image sh
 
 - **Native interface and character system.** A continuous companion scene, grounded expressive poses, dialogue actions, a unified Home panel, consistent Nunito typography and white navigation. The nature scene changes to the gym interior on a fresh, confident gym match.
 - **Workout accountability.** Explicit completion works independently of location. Shared account, date and idempotency checks prevent stale or duplicate awards; at most one workout is awarded per local day. The onboarding promise starts the streak at one without inventing a workout.
-- **Map and friends.** Native, always-light Apple Maps with gym discovery, place details and Apple Maps directions. Optional one-hour gym sharing is limited to accepted friends and expires; precise location is not shared.
+- **Map and friends.** Native, always-light Apple Maps with gym discovery, place details and Apple Maps directions. Separately consented foreground location sharing lets accepted friends see your latest map position. Updates expire after 15 minutes; Ghost Mode removes the shared position. Save a main gym and invite accepted friends to a session while at that gym, with in-app Accept/Decline. Background arrival alerts are not part of the current build.
 - **App, widgets and Live Activities.** Shared local App Group state and App Intents keep workout actions consistent across surfaces. Small/medium widgets and compact Live Activity content use the same character identities and contextual dialogue.
 
 ## The engineering idea
