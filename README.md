@@ -11,7 +11,13 @@ GymPal is an iPhone workout-accountability companion. Make a realistic plan, cho
 <tr><td><img src="assets/home.png" width="300" alt="Current native Home with the redesigned Knox, nature scene, dialogue actions, connected weekdays and unified schedule/friends panel."/></td><td><img src="assets/profile.png" width="300" alt="Current native Profile with Milo, companion switching, streak and consistency statistics, Friends and Notes."/></td></tr>
 <tr><th>Plan your week</th><th>The promise starts the streak</th></tr>
 <tr><td><img src="assets/plan.png" width="300" alt="Native onboarding question with the new Knox and specific-day or flexible-week answer cards."/></td><td><img src="assets/streak.png" width="300" alt="Native onboarding streak reveal with Knox, baseline one and explicitly zero completed workouts."/></td></tr>
+<tr><th>Check-in demo</th><th>Streak demo</th></tr>
+<tr><td><img src="assets/demo-checkin.png" width="300" alt="Short onboarding demo using the current Home capture in a cropped phone frame."/></td><td><img src="assets/demo-streak.png" width="300" alt="Short streak demo with one heading, one sentence and one Continue action."/></td></tr>
 </table>
+
+After the scripted introduction, setup has seven visible screens. Optional reminders sit with the time question; the promise celebration leads directly into real saving and Home. The loading state uses the selected buddy and a Home skeleton, with reduced motion support and no artificial delay.
+
+<details><summary>Current loading layout</summary><img src="assets/loading.png" width="300" alt="Native loading layout with the selected mascot, nature scene and skeleton of Home. This still does not demonstrate animation."/></details>
 
 **Capture provenance:** the images above are fresh macOS captures of the production SwiftUI views with sample state. They are not iPhone screenshots or illustrated UI concepts. Mascots use the current still exports in this capture harness; still images do not demonstrate animation or device interaction.
 
